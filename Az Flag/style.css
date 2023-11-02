@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+#retangel1 {
+    width: 1280px ;
+    height: 200px ;
+    background-color: blue;
+    }
+
+#retangel2{
+    width: 1280px ;
+    height: 200px ;
+    background-color: red;
+    padding-top: 40px;
+    
+
+}
+#crescent {
+        
+    width: 160px; 
+    height: 160px; 
+    margin: 0 1200px 0 600px;
+    
+
+    border-radius: 50%;
+        background-color: red;
+        box-shadow: -25px 0 0 0  white;
+    }
+
+#star {
+    /* ?????? */
+}
+#retangel3{
+    width: 1280px ;
+    height: 200px ;
+    background-color: green;
+}
