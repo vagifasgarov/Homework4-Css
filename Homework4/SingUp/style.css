@@ -1,0 +1,179 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    float:left; 
+}
+ 
+
+#login-in-box {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px  solid black ;
+    
+}
+#username-icon {
+    width: 120px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 50px; 
+    border-radius: 50%;
+    background-color: rgb(65, 65, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+#username-input-log{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    border: none;
+    border-bottom: 2px solid rgb(70, 70, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+
+#password-input-log{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    border: none;
+    border-bottom: 2px solid rgb(70, 70, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+#checkbox-text{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -13px ;
+}
+#checkbox-icon{
+    font-size: 10px;
+    margin: 0;
+}
+#login-in-button-confirm{
+    width: 230px;
+    height: 50px;
+    background-color: blue;
+    font-size: 20px;
+    color: white ;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom:-20px;
+    padding: 0;
+    outline: none;
+}
+#forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: -40px;
+    margin-left:60px;
+    padding: 0;
+}
+#sign-up-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 30px;
+}
+#sign-up-box {
+width: 300px;
+height: 500px;
+background-color: blue;
+border-radius: 30px ;
+border: 3px solid black;
+
+}
+#username-sign-up {
+    border: none;
+    
+    font-size: 15px ;
+    font-weight: 500;  
+    background: transparent; 
+    color: aliceblue;
+    
+}
+#username-input{
+    margin-top: 10px;
+    margin-bottom:-10px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+input{
+    background: transparent;
+}
+::placeholder{
+    color:  rgba(155, 155, 155, 0.978);
+}
+#email {
+    border: none;
+    
+    font-size: 15px ;
+    font-weight: 500;  
+    background: transparent; 
+    color: aliceblue;
+}
+#input-email {
+    margin-top: 10px;
+    margin-bottom:-8px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+#password {
+    border: none;
+    
+    font-size: 15px ;
+    font-weight: 500;  
+    background: transparent; 
+    color: aliceblue;
+}
+#password-input {
+    margin-top: 10px;
+    margin-bottom:-8px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+#confirm-password {
+    border: none;
+    
+    font-size: 15px ;
+    font-weight: 500;  
+    background: transparent; 
+    color: aliceblue;
+}
+#confirm-password-input {
+    margin-top: 10px;
+    margin-bottom:-8px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 15px ;
+    font-weight: 500;
+}
+#create-account{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: blue ;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom:-10px;
+    padding: 0;
+    outline: none;
+}
