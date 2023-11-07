@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+}
 #retangel1 {
     width: 1280px ;
     height: 200px ;
@@ -28,9 +28,27 @@
         box-shadow: -25px 0 0 0  white;
     }
 
-#star {
-    /* ?????? */
-}
+     #star {
+        width: 50px; 
+        height: 50px; 
+        margin: 10px;
+        background: #ffffff;
+        position: relative;
+        transform: rotate(60eg);
+        border-width: 20px 20px 20px;
+        margin: -110px 1300px 0 700px;
+        }
+    #star::before {
+        content: "";
+        height: 50px; 
+        width: 50px;
+        background: inherit;
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        transform: rotate(135deg);
+        
+        } 
 #retangel3{
     width: 1280px ;
     height: 200px ;

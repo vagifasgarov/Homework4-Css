@@ -1,7 +1,7 @@
 *{
     margin: 10px;
     padding: 10px;
-    float:left; 
+    text-align: center;
 }
  
 
@@ -13,6 +13,7 @@
     border: 3px  solid black ;
     
 }
+
 #username-icon {
     width: 120px;
     height: 120px;
@@ -70,8 +71,8 @@
     display: flex;
     justify-content: center;
     align-items:center ;
-    margin-top: -40px;
-    margin-left:60px;
+    margin-top: -20px;
+    margin-left:20px;
     padding: 0;
 }
 #sign-up-text {
@@ -79,7 +80,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 20px;
     font-size: 30px;
 }
 #sign-up-box {
